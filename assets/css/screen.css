@@ -44,9 +44,7 @@ ul {
   list-style-type: circle;
   display: block;
 }
-li {
 
-}
 /* Layout (id selectors; width/height, position, flexbox, grid)*/
 
 .invisible {
@@ -87,6 +85,15 @@ li {
   flex-basis: 1;
   flex-shrink: 0;
 }
+/*Controls color transitions for hovering and clicking menu buttons*/
+.menu a:active {
+  background-color: #080124;
+  transition: 0.4s;
+}
+.menu a:hover {
+  background-color: #25126c;
+  transition: 0.4s;
+}
 .page-name {
   font-size: 3em;
   line-height: 1em;
@@ -97,29 +104,17 @@ li {
   padding-top: 0.33em;
   padding-bottom: 0.33em;
 }
-
-/*Controls color transitions for hovering and clicking menu buttons*/
-.menu a:active {
-  background-color: #080124;
-  transition: 0.4s;
-}
-.menu a:hover {
-  background-color: #25126c;
-  transition: 0.4s;
-}
-textarea {
-  /*width: 100%;*/
-}
 .signup {
   background-color: grey;
   padding: 1em;
   margin: auto;
 
 }
-.signup li{
+.signup li {
   padding: 0.5em;
   display: grid;
 }
+
 /* Module/Modular Section (class or descedent selectors; repeating specific styles) */
 
 /* State (repeat the structure above; media queries, JavaScript-dependent styles) */
