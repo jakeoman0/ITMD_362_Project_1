@@ -111,10 +111,32 @@ ul {
 
 }
 .signup li {
-  padding: 0.5em;
+  padding: 1.0em;
   display: grid;
 }
-
+.signup li input{
+  /*height: 1.0em;*/
+  font-size: 1.5em;
+  width: 100%;
+  }
+.signup #submit{
+  height: 3em;
+  font-size: 1.5em;
+}
+.signup label{
+  font-size: 1.5em;
+  padding: 0.5em 0em;
+}
+.invalid {
+  border-color: red;
+  font-size: 1.5em;
+  width: 100%;
+  }
+.valid {
+  border-color: green;
+  font-size: 1.5em;
+  width: 100%;
+}
 /* Module/Modular Section (class or descedent selectors; repeating specific styles) */
 
 /* State (repeat the structure above; media queries, JavaScript-dependent styles) */
